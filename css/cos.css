@@ -5,8 +5,9 @@
 }
 
 body {
-	font-family: 'Quattrocento', Serif;
+	font-family: 'Julius Sans One', Sans-Serif;
 	font-size: 16px;
+	background: rgba(245, 245, 220, 0.2);
 }
 
 header  {
@@ -15,7 +16,7 @@ header  {
 	left: 0;
 	background: transparent;
 	width: 100%;
-	font-family: 'Oswald', Sans-Serif;
+	font-family: 'Julius Sans One', Sans-Serif;
 	z-index: 300;
 }
 
@@ -47,7 +48,7 @@ nav ul li:last-child {
 }
 
 nav ul li:hover {
-	border-bottom: 3px solid red;
+	border-bottom: 3px solid #f5f5dc;
 }
 
 #hero {
@@ -65,6 +66,7 @@ nav ul li:hover {
 }
 
 .arrow {
+	cursor: pointer;
 	transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     position: absolute;
@@ -74,7 +76,7 @@ nav ul li:hover {
 
 #introductions {
 	width: 80%;
-	font-family: 'Oswald', Sans-Serif;
+	font-family: 'Monda', Sans-Serif;
 	margin: 0 auto;
 }
 
@@ -83,6 +85,10 @@ nav ul li:hover {
 	margin: 80px 0;
 	font-size: 30px;
 	text-transform: uppercase;
+}
+
+#introductions .profile {
+	margin-bottom: 60px;
 }
 
 #introductions .writeUp {
@@ -105,4 +111,29 @@ nav ul li:hover {
 	width: 28%;
 	border: 8px solid #000;
 	float: left;
+}
+
+footer {
+	background: rgba(245, 245, 220, 0.4);
+	text-align: center;
+	padding: 30px;
+}
+
+footer .contact p {
+	display: inline-block;
+}
+
+footer .nav ul li {
+	display: inline-block;
+	border-right: 2px solid #000;
+	padding: 10px;
+	cursor: pointer;
+}
+
+footer .nav ul li:hover {
+	color: purple;
+}
+
+footer .foot {
+	padding-bottom: 20px;
 }
