@@ -47,6 +47,10 @@ nav ul li:last-child {
 	padding: 0px;
 }
 
+nav ul li:last-child:hover {
+	border-bottom: none;
+}
+
 nav ul li:hover {
 	border-bottom: 3px solid #f5f5dc;
 }
