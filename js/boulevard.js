@@ -1,10 +1,9 @@
 $(document).ready(function() {
 
-	// (function () {
-	// 	$('#hero img').fadeIn(500, function () {
-	// 		$('#hero img').delay(1000).fadeIn(500);
-	// 	});
-	// })();
+	$(".hamburger").on('click', function() {
+	   $(this).toggleClass("open");
+	   $('nav').toggle(1000);
+	 })
 
 	$(window).scroll(function() {
 		if($(document).scrollTop() > 300) {
