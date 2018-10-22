@@ -1,9 +1,16 @@
 $(document).ready(function() {
 
 	$(".hamburger").on('click', function() {
-	   $(this).toggleClass("open");
-	   $('nav').toggle(1000);
-	 })
+		
+		let $nav = $('nav');		
+
+		$(this).toggleClass("open");
+		if ($nav.hasClass('open-menu')) {
+			$nav.removeClass('open-menu');
+		} else {
+			$nav.addClass('open-menu');
+		}
+	 });
 
 	$(window).scroll(function() {
 		if($(document).scrollTop() > 300) {

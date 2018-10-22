@@ -67,7 +67,12 @@ nav {
 	text-align: center;
 	position: absolute;
 	top: 55px;
-	display: none;
+	left: -100%;
+	transition: left .3s;
+}
+
+.open-menu {
+	left: 0;
 }
 
 nav ul {
@@ -113,11 +118,11 @@ header .mainBtn {
 	border: 4px solid yellow;
 	text-transform: uppercase;
 	margin: 20px;
+	transition: all .3s;
 }
 
 header .mainBtn:hover {
 	background: yellow;
-	transition: 3s;
 	color: #000;
 	cursor: pointer;
 }
@@ -188,6 +193,7 @@ header .mainBtn:hover {
 	border: 4px solid #000;
 	text-transform: uppercase;
 	margin: 20px;
+	transition: all .3s;
 }
 
 .media .mainBtn:hover {
@@ -199,7 +205,6 @@ header .mainBtn:hover {
 @media (max-width: 500px) {
 
 	nav {
-		display: none;
 		padding-left: 0px;
 		width: 100%;
 	}
