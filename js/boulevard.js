@@ -20,6 +20,13 @@ $(document).ready(function() {
 			$("#last-main div").fadeIn(5000);
 		}
 		if($(document).scrollTop() > 800) {
+			$("nav ul li").addClass('scroll');
+			$(".hamburger span").addClass('scroll');
+		} else {
+			$("nav ul li").removeClass('scroll');
+			$(".hamburger span").removeClass('scroll');
+		}
+		if($(document).scrollTop() > 800) {
 			(function () {
 				$('#under-main .awards h2').fadeIn(500, function () {
 					$('#under-main .awards ul').delay(1000).fadeIn(500);
