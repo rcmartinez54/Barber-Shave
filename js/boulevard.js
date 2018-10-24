@@ -19,11 +19,9 @@ $(document).ready(function() {
 		if($(document).scrollTop() > 800) {
 			$("#last-main div").fadeIn(5000);
 		}
-		if($(document).scrollTop() > 800) {
-			$("nav ul li").addClass('scroll');
+		if($(document).scrollTop() > 600) {
 			$(".hamburger span").addClass('scroll');
 		} else {
-			$("nav ul li").removeClass('scroll');
 			$(".hamburger span").removeClass('scroll');
 		}
 		if($(document).scrollTop() > 800) {
