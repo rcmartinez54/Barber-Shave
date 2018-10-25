@@ -33,5 +33,16 @@ $(document).ready(function() {
 		}		
 	});
 
+	$.getJSON('js/images.json', function (data) {
+
+		let haircut = data.images;
+
+		let newContent;
+
+		for (var i = 0; i < haircut.length; i++) {
+			
+		}
+		
+	});
 	
 });
