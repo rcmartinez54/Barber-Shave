@@ -388,8 +388,8 @@ header .mainBtn:hover {
 }
 
 #under-main {
-	// background: mintcream;
-	// height: 390px;
+	background: url('../img/awards.jpg') fixed;
+	background-size: cover;
 }
 
 #under-main .awards {
@@ -406,6 +406,7 @@ header .mainBtn:hover {
 	font-size: 21px;
 	margin: 20px 0;
 	display: none;
+	color: #fff;
 }
 
 #under-main .awards ul {
@@ -414,6 +415,27 @@ header .mainBtn:hover {
 
 #under-main .awards ul li {
 	padding: 20px;
+	color: #fff;
+	font-size: 21px;
+}
+
+.products {
+	text-align: center;
+}
+
+.products h2 {
+	font-size: 38px;
+	margin: 50px 0;
+}
+
+.products p {
+	margin: 0 100px;
+}
+
+.products img {
+	display: inline;
+	width: 20%;
+	margin: 20px;
 }
 
 #last-main {
