@@ -331,6 +331,24 @@ header .mainBtn:hover {
 	}
 }
 
+/* -- Testimony Rules -- */
+
+.test {
+	padding: 15px;
+}
+
+.test .test-img {
+	float: left;
+}
+
+.test .test-text {
+	float: left;
+}
+
+.test .test-text p {
+	padding: 20px;
+}
+
 /* -- Services table rules -- */
 
 .services {
@@ -388,7 +406,7 @@ header .mainBtn:hover {
 	.services {
 		padding: 0;
 	}
-	
+
 	.services h1 {
 		margin: 0;
 	}

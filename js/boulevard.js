@@ -35,13 +35,20 @@ $(document).ready(function() {
 
 	$.getJSON('js/boulevard.json', function (data) {
 
-		let haircut = data.images;
+		let testimony = data.testimony;
 
 		let newContent;
 
-		for (var i = 0; i < haircut.length; i++) {
-
+		for (var i = 0; i < testimony.length; i++) {
+			newContent += '<div class="test-img">';
+			newContent += '<img src="' + testimony[i].image +'" />';
+			newContent += '</div>';
+			newContent += '<div class="test-text">';
+			newContent += '<p>' + testimony[i].testimony + '</p>';
+			newContent += '</div>';
 		}
+
+		$('.test').append(newContent);
 
 	});
 	
