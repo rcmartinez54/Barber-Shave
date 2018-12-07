@@ -53,3 +53,16 @@ $(document).ready(function() {
 	});
 	
 });
+
+function ohFuckAlmostOutOfFuel () {
+	let distance = 50,
+		mpg = 25, 
+		fuelLeft = 1;
+
+		if (fuelLeft * mpg >= distance) {
+			console.log('Just made it');
+		} else {
+			console.log('Start hitch hiking');
+		}
+
+};
