@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 		let testimony = data.testimony;
 
-		let newContent;
+		let newContent = '';
 
 		for (var i = 0; i < testimony.length; i++) {
 			newContent += '<div class="test-img">';
