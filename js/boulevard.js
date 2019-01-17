@@ -40,15 +40,17 @@ $(document).ready(function() {
 		let newContent = '';
 
 		for (var i = 0; i < testimony.length; i++) {
+			newContent += '<li class="test clearfix">';
 			newContent += '<div class="test-img">';
 			newContent += '<img src="' + testimony[i].image +'" />';
 			newContent += '</div>';
 			newContent += '<div class="test-text">';
 			newContent += '<p>' + testimony[i].testimony + '</p>';
 			newContent += '</div>';
+			newContent += '</li>';
 		}
 
-		$('.test').append(newContent);
+		$('.test ul').append(newContent);
 
 	});
 	

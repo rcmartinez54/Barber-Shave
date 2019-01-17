@@ -335,14 +335,23 @@ header .mainBtn:hover {
 
 .test {
 	padding: 15px;
+	margin: 0 50px;
+}
+
+.test li:nth-child(2n+2) {
+	background: #ccc;
 }
 
 .test .test-img {
 	float: left;
+	width: 40%;
 }
 
 .test .test-text {
-	float: left;
+	width: 40%;
+	float: right;
+	padding: 20px;
+	background: white;
 }
 
 .test .test-text p {
