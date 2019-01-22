@@ -347,6 +347,10 @@ header .mainBtn:hover {
 	width: 40%;
 }
 
+.test .test-img img {
+	width: 30%;
+}
+
 .test .test-text {
 	width: 40%;
 	float: right;
